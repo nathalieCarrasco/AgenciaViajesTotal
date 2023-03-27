@@ -1,0 +1,9 @@
+a:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff;
+}
+.logo {
+  opacity: 70%;
+}
+.logo:hover {
+  opacity: 100%;
+}
