@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+nav {
+    background-color: #8bc9ef;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: larger;
+  }
+  
+/*  ARIEL AQUIII  nav a:hover {
+    AQUi TU COLOCAS LO QUE QUIERES PARA EL REQUERIMIENTO DE LA HISTORIA DESCOMENTA NOMAS 
+  }
+   */
+  /* Estilos para el logo */
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  
