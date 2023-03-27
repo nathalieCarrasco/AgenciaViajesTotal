@@ -1,2 +1,5 @@
 # AgenciaViajesTotal
-proyecto creado para SMU Agencia de viajes ! 
+
+##### Guia de estilos 
+![Texto alternativo](/src/img/viajesTotalLogo.png)
+
