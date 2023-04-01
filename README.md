@@ -12,3 +12,5 @@ se mostraran de manera atractiva todas las opciones disponibles permitiendo la c
 2.  las Fonts a Utilizar son 
     - font-family: 'Lato', sans-serif;
     - weight: 400-700-900
+
+    Link A PLANTILLA DISEÑO EN FIGMA <https://www.figma.com/file/HLAr5rXK0Zbz7dczkSTtTl/Untitled?node-id=0%3A1&t=o76Qh6PfQd04inkk-1>
