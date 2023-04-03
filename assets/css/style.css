@@ -29,6 +29,13 @@ nav {
     AQUi TU COLOCAS LO QUE QUIERES PARA EL REQUERIMIENTO DE LA HISTORIA DESCOMENTA NOMAS 
   }
    */
+   a:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff;
+  }
+  .logo {
+    opacity: 70%;
+  }
+ 
   /* Estilos para el logo */
   .logo img{
     width: 100px;
