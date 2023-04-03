@@ -28,5 +28,38 @@
         <a href="#">Blog</a>
       </div>
     </nav>
+    <header>
+      <div class="contenedor-carrusel">
+         <div class="carrusel-container">
+        <div class="carrusel-slide">
+          <img src="/src/img/moscu.jpg" alt="Imagen 1">
+        </div>
+        <div class="carrusel-slide">
+          <img src="/src/img/tailandia.jpg" alt="Imagen 2">
+        </div>
+        <div class="carrusel-slide">
+          <img src="src/img/brasil.jpg" alt="Imagen 3">
+        </div>
+      </div>
+      </div>
+     
+      <div class="contenedor-formulario">
+        <form class="formulario">
+          <div class="formulario-buscar-destino">
+            <label for="destino">Buscar destino:</label>
+            <input type="text" id="destino" name="destino" placeholder="Ingresa tu destino">
+          </div>
+          <div class="formulario-buscar-fechas">
+            <label for="fecha-inicio">Desde:</label>
+            <input type="date" id="fecha-inicio" name="fecha-inicio">
+            <label for="fecha-fin">Hasta:</label>
+            <input type="date" id="fecha-fin" name="fecha-fin">
+          </div>
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
+    </header>
+
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
