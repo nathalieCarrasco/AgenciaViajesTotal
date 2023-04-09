@@ -1,51 +1,49 @@
 body {
   margin: 0;
   padding: 0;
-
 }
 
 nav {
-    background-color: #8bc9ef;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: 400;
-    font-size: larger;
-  }
-  
+  background-color: #8bc9ef;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: larger;
+}
+
 /*  ARIEL AQUIII  nav a:hover {
     AQUi TU COLOCAS LO QUE QUIERES PARA EL REQUERIMIENTO DE LA HISTORIA DESCOMENTA NOMAS 
   }
    */
-   a:hover {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff;
-  }
-  .logo {
-    opacity: 70%;
-  }
- 
-  /* Estilos para el logo */
-  .logo img{
-    width: 100px;
-    height: 100px;
-  }
+a:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff;
+}
+.logo {
+  opacity: 70%;
+}
 
-  .menu{
-    padding-right: 50px;
-  }
+/* Estilos para el logo */
+.logo img {
+  width: 100px;
+  height: 100px;
+}
 
+.menu {
+  padding-right: 50px;
+}
 
 /*   carrusel */
 
@@ -70,20 +68,19 @@ nav {
   transition: opacity 1s ease-in-out;
 }
 
-.carrusel-slide img{
+.carrusel-slide img {
   object-fit: cover;
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
 }
 
 .carrusel-slide.active {
   opacity: 1;
 }
-  
 
 /* formulario
- */  
- .contenedor-formulario {
+ */
+.contenedor-formulario {
   position: absolute;
   top: 85%;
   transform: translateY(-50%);
@@ -95,7 +92,6 @@ nav {
   box-sizing: border-box;
   width: 40%;
   height: 200px;
-
 }
 
 .formulario {
@@ -103,7 +99,6 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
 
 .formulario label {
   display: block;
@@ -127,4 +122,40 @@ nav {
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 200px;
+  display: flex;
+  top: 0;
+  background-color: #8bc9ef;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+  height: fit-content;
+  font-family: "Lato", sans-serif;
+  list-style: none;
+  padding: 1-px;
+}
+.logoFooter {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
+.categorias {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
