@@ -41,7 +41,7 @@ nav {
   }
    */
    a:hover {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff;
+    text-shadow: 0 0 10px #f5ab17, 0 0 20px #ffb412, 0 0 20px #f9ac06;
   }
   .logo {
     opacity: 100%;
@@ -235,13 +235,18 @@ margin-left: 350px;
   font-size: 36px;
   font-weight: 100;
   text-transform: uppercase;
+
 }
 
 .box-tarjetas{
    display: flex;
   justify-content: space-around;
   align-items: center; 
+ 
 
+}
+.main-container{
+  height: max-content;
 }
 
 .tarjeta{
@@ -354,7 +359,8 @@ margin-left: 350px;
 
 #main-container{
   width: 100%;
-  height: 100vh;
+
+  height: max-content !important;
 }
 
 .text-box-header{
@@ -362,7 +368,7 @@ margin-left: 350px;
   justify-content: center;
 }
 .box-main{
- 
+
   display: grid !important;
   width: 100%;
   justify-content: space-around;
@@ -486,3 +492,92 @@ margin: 0;
 }
 
 
+.box-articule{
+  width: 100%;
+  height: 50vh;
+  background-color: var(--myazul);
+}
+
+.box-articule h2{
+  margin: 0;
+  color: var(--myblanco);
+  font-size: 36px;
+  text-align: center;
+  font-weight: 900;
+  font-family: var(--myletra);
+  padding-top: 55px;
+}
+.box-articule hr{
+
+    color: var(--myamarillo);
+    height: 8px;
+    border-width: 0 0 8px;
+    border-style: dotted;
+    
+     width: 216px;
+}
+
+.box-articule p{
+  margin: 0;
+ 
+  text-align: center;
+  padding: 15px;
+  color: var(--myamarillo);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--myletra);
+
+}
+
+.box-contenido-articule{
+  display: flex;
+ justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  
+  margin: 0 auto;
+
+}
+.formulario-article{
+
+display: flex;
+ justify-content: space-around;
+ text-align: center;
+ width: 70%;
+
+}
+
+.formulario-article label{
+ color: var(--myblanco);
+ font-size: 24px;
+ padding-top: 10px;
+ padding-right: 15px;
+}
+.formulario-article input{
+
+  width: 90%;
+  margin: 0 auto;
+  height: 50px; 
+  margin-top: 10px;
+}
+
+#Imagotipo{
+margin: 0;
+padding-bottom: 15px;
+  fill: var(--myamarillo);
+}
+.formulario-article button{
+  width: 100px;
+  height: 45px;
+  margin:auto 0 ;
+  color: var(--myazul);
+  background-color: var(--myamarillo);
+ margin-left: 20px;
+ border-radius: 20px;
+}
+
+.formulario-article button:hover{
+  background-color: var(--myceleste-oscuro);
+  color: var(--myblanco);
+  
+}

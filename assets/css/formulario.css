@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://picsum.photos/id/1015/1920/1080');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  #contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  }
+  
+  input[type=text], input[type=email], input[type=tel], select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  input[type=submit] {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #d32f2f;
+  }
+  
+  .is-invalid {
+    border-color: #f44336;
+  }
+  
+  .invalid-feedback {
+    color: #f44336;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
