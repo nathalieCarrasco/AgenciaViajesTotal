@@ -14,3 +14,22 @@ se mostraran de manera atractiva todas las opciones disponibles permitiendo la c
     - weight: 400-700-900
 
     Link A PLANTILLA DISEÑO EN FIGMA <https://www.figma.com/file/HLAr5rXK0Zbz7dczkSTtTl/Untitled?node-id=0%3A1&t=o76Qh6PfQd04inkk-1>
+
+    ### despliegue de demos 
+
+    #####link de servidor en repo 
+    https://github.com/nathalieCarrasco/server-viajesTotal
+
+    #####link de app en next -cliente estatico en carpeta public 
+    https://github.com/nathalieCarrasco/viajes-Total
+     #####despliegue demo next 
+     https://viajes-total.vercel.app/index.html
+
+     #####link de HTML CSS Estatico app
+     https://github.com/nathalieCarrasco/AgenciaViajesTotal
+
+
+
+    
+
+
